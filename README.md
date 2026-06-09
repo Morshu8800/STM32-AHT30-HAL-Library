@@ -6,4 +6,5 @@ This is a very simple library that uses the sequence and commands from the senso
 
 The example and library files are located in "source" folder.
 The datasheet file is located in "docs" folder.
+
 #
