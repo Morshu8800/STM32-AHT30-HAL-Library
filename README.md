@@ -1,5 +1,5 @@
 # STM32-AHT30-HAL-Library
-Very simple HAL library for AHT30
+Very simple HAL library for AHT30 sensor.
 
 # What about of this library
 This is a very simple library that uses the sequence and commands from the sensor manufacturer's datasheet.
