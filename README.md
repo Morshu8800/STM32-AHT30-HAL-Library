@@ -5,7 +5,7 @@ Very simple and dumb hal library for AHT30, maybe AHT20
 This is a very simple library that uses the sequence and commands from the sensor manufacturer's datasheet.
 
 > [!NOTE]  
-> This library probably can work on STM32F/G/H/L0xx microcontrollers.
+> This library probably can work on STM32F/G/H/L0xx microcontrollers. <br>
 > This library is tested on STM32G030xx microcontroller.
 
 The example and library files are located in "source" folder.
