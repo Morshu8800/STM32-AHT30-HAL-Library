@@ -16,6 +16,7 @@
 #define I2C_ADDRESS 0x38<<1 //for HAL address left shifting by 1
 
 #define CMD_READ_STATUS 0x71
+#define CMD_FORCE_MEASURE 0x70 // described in datasheet
 
 #define MASK_BUSY 0x80
 #define MASK_MODE 0x60
