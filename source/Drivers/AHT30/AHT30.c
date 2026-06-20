@@ -17,7 +17,7 @@ void AHT30_Init(I2C_HandleTypeDef *hi2c) {
 }
 
 bool AHT30_Force_Measure(void) {
-	if (HAL_I2C_Master_Transmit(_aht_ui2c, 0x70, (uint8_t*) CMD_MEASURE_SEQ, 3,
+	if (HAL_I2C_Master_Transmit(_aht_ui2c, CMD_FORCE_MEASURE, (uint8_t*) CMD_MEASURE_SEQ, 3,
 			1000) != HAL_OK) {
 		return false;// bus error
 	}
