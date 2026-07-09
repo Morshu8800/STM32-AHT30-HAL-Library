@@ -43,7 +43,7 @@ bool AHT30_Get_Data(float *Humidity, float *Temperature) {
 	uint8_t buf[7] = { 0 };
 	uint8_t tempTemp[3] = { 0 };
 	uint8_t humiTemp[3] = { 0 };
-	uint32_t raw_humidity, raw_temperature;
+	uint32_t raw_humidity = 0, raw_temperature = 0;
 	if (HAL_I2C_Master_Receive(_aht_ui2c, CMD_READ_STATUS, buf, sizeof(buf),
 			1000) != HAL_OK) {
 		return 1; //bus error
